@@ -2,6 +2,6 @@ class FirstJavaProgram
 {
 	public static void main(String[] args)
 	{
-		System.out.println("Piyush Raj");
+		System.out.println("Welcome To Java");
 	}
 }
