@@ -1,4 +1,4 @@
-class Square8
+class Square9
 {
 	public static void main(String [] args)
 	{
@@ -7,7 +7,7 @@ class Square8
 		{
 			for(int j = 0; j < n; j++)
 			{
-				if(i%2==0)
+				if(j%2==0)
 				{
 					System.out.print(1 + " ");
 				}
