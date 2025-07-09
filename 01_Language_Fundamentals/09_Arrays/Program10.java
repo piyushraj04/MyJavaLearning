@@ -1,4 +1,4 @@
-class Program9
+class Program10
 {
 	public static void main(String [] args)
 	{
@@ -6,11 +6,9 @@ class Program9
 		int sum = 0;
 		for(int i = arr.length-1;i>=0;i--)
 		{
-			if(arr[i] % 2 != 0)
-			{
-				sum += arr[i];
-			}
+			sum += arr[i];	
 		}
-		System.out.println("Odd sum = " + sum);
+        double avg = sum/arr.length;
+		System.out.println("avg is : "+avg);
 	}
 }
