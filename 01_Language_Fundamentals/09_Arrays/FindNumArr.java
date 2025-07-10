@@ -1,9 +1,12 @@
+import java.util.Scanner;
 class FindNumArr
 {
 	public static void main(String [] args)
 	{
+		Scanner sc = new Scanner(System.in);
 		int [] arr ={20,32,25,65,68,15,24,89,75,31,6,5,8,88,2,759,9,99};
-		int element = 331;
+		System.out.println("Enter the number : ");
+		int element = sc.nextInt();
 		boolean flag = false;
 		for(int i = 0;i < arr.length;i++)
 		{
