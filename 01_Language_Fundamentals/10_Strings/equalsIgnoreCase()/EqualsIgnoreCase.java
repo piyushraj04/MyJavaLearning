@@ -6,7 +6,7 @@ class EqualsIgnoreCase
 		
 		System.out.println(str.equalsIgnoreCase("j2ee"));  //3
 		System.out.println(str.equalsIgnoreCase("J2ee"));
-		System.out.println(str.equalsIgnoreCase("adv java"));
+		System.out.println(str.equalsIgnoreCaseja("adv java"));
 		
 		
 	}
